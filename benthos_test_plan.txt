@@ -1,5 +1,3 @@
-processor annotates messages with shard ID
-
 ## Test Steps
 
 Create stream
