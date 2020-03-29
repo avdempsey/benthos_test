@@ -1,0 +1,20 @@
+http:
+  address: 0.0.0.0:4196
+
+input:
+  kinesis_balanced:
+    stream: test-benthos-kinesis-balanced
+    start_from_oldest: true
+    dynamodb_table: test-benthos-kinesis-balanced
+    dynamodb_billing_mode: PAY_PER_REQUEST
+    region: us-east-1
+
+output:
+  file:
+    path: test_keys_output.txt
+
+logger:
+  level: TRACE
+
+metrics:
+  type: stdout

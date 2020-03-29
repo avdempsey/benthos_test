@@ -1,0 +1,617 @@
+$ benthos -c kinesis_balanced_to_file.yml 
+{"@timestamp":"2020-03-28T23:59:54-07:00","@service":"benthos","level":"INFO","component":"benthos","message":"Launching a benthos instance, use CTRL+C to close."}
+{"@timestamp":"2020-03-28T23:59:54-07:00","@service":"benthos","level":"INFO","component":"benthos","message":"Listening for HTTP requests at: http://0.0.0.0:4196"}
+{"@timestamp":"2020-03-28T23:59:55-07:00","@service":"benthos","level":"INFO","component":"benthos.input","message":"Receiving Amazon Kinesis messages from stream: test-benthos-kinesis-balanced"}
+ERRO[0001] ResourceNotFoundException: Requested resource not found 
+WARN[0001] ResourceNotFoundException: Requested resource not found 
+ERRO[0002] ResourceNotFoundException: Requested resource not found 
+WARN[0002] ResourceNotFoundException: Requested resource not found 
+ERRO[0003] ResourceNotFoundException: Requested resource not found 
+WARN[0003] ResourceNotFoundException: Requested resource not found 
+ERRO[0004] ResourceNotFoundException: Requested resource not found 
+WARN[0005] ResourceNotFoundException: Requested resource not found 
+ERRO[0006] ResourceNotFoundException: Requested resource not found 
+WARN[0006] ResourceNotFoundException: Requested resource not found 
+ERRO[0007] ResourceNotFoundException: Requested resource not found 
+WARN[0008] ResourceNotFoundException: Requested resource not found 
+ERRO[0009] ResourceNotFoundException: Requested resource not found 
+WARN[0009] ResourceNotFoundException: Requested resource not found 
+ERRO[0010] ResourceNotFoundException: Requested resource not found 
+WARN[0010] ResourceNotFoundException: Requested resource not found 
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:18-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:54-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:54-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:54-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:54-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:54-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:54-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:54-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:54-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:54-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:54-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:54-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:54-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:54-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:54-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:54-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:54-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:54-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:54-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:54-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:54-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:54-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:54-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:54-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:54-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:54-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:54-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:54-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:00:54-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:54-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:00:54-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:05-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:05-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:05-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:05-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:05-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:05-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:05-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:05-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:05-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:05-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:05-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:05-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:05-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:05-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:05-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:05-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:05-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:05-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:05-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:05-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:05-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:05-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:05-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:05-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:05-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:05-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:05-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:05-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:05-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:05-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+ERRO[0077] Error getting Kinesis shards: Stream not active 
+ERRO[0079] Error getting Kinesis shards: Stream not active 
+{"@timestamp":"2020-03-29T00:01:15-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:15-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:15-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:15-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:15-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:15-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:15-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:15-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:15-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:15-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:15-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:15-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:15-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:15-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:15-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:15-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:15-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:15-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:15-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:15-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:15-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:15-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:15-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:15-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:15-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:15-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:15-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:15-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:15-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:15-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+ERRO[0081] Error getting Kinesis shards: Stream not active 
+ERRO[0082] Error getting Kinesis shards: Stream not active 
+ERRO[0084] Error getting Kinesis shards: Stream not active 
+ERRO[0086] Error getting Kinesis shards: Stream not active 
+ERRO[0087] Error getting Kinesis shards: Stream not active 
+ERRO[0089] Error getting Kinesis shards: Stream not active 
+{"@timestamp":"2020-03-29T00:01:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:25-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+ERRO[0091] Error getting Kinesis shards: Stream not active 
+ERRO[0093] Error getting Kinesis shards: Stream not active 
+ERRO[0094] Error getting Kinesis shards: Stream not active 
+ERRO[0096] Error getting Kinesis shards: Stream not active 
+ERRO[0098] Error getting Kinesis shards: Stream not active 
+ERRO[0099] Error getting Kinesis shards: Stream not active 
+{"@timestamp":"2020-03-29T00:01:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:34-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+ERRO[0101] Error getting Kinesis shards: Stream not active 
+ERRO[0103] Error getting Kinesis shards: Stream not active 
+ERRO[0104] Error getting Kinesis shards: Stream not active 
+ERRO[0106] Error getting Kinesis shards: Stream not active 
+ERRO[0108] Error getting Kinesis shards: Stream not active 
+{"@timestamp":"2020-03-29T00:01:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.input","message":"Consumed 1 messages from 'kinesis_balanced'."}
+{"@timestamp":"2020-03-29T00:01:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Attempting to write 1 messages to 'file'."}
+{"@timestamp":"2020-03-29T00:01:44-07:00","@service":"benthos","level":"TRACE","component":"benthos.output","message":"Successfully wrote 1 messages to 'file'."}
+ERRO[0109] Error getting Kinesis shards: Stream not active 
+ERRO[0111] Error getting Kinesis shards: Stream not active 
+ERRO[0113] Error getting Kinesis shards: Stream not active 
+ERRO[0115] Error getting Kinesis shards: Stream not active 
+ERRO[0116] Error getting Kinesis shards: Stream not active 
+ERRO[0118] Error getting Kinesis shards: Stream not active 
+{"@timestamp":"2020-03-29T00:01:53-07:00","@service":"benthos","level":"INFO","component":"benthos.input","message":"Stopping processing of Stream test-benthos-kinesis-balanced Shard shardId-000000000000"}
+{"@timestamp":"2020-03-29T00:01:53-07:00","@service":"benthos","level":"ERROR","component":"benthos.input","message":"Failed to read message: shard 'shardId-000000000000' has closed"}
+{"@timestamp":"2020-03-29T00:01:53-07:00","@service":"benthos","level":"ERROR","component":"benthos.input","message":"Failed to read message: shard 'shardId-000000000000' has closed"}
+{"@timestamp":"2020-03-29T00:01:53-07:00","@service":"benthos","level":"ERROR","component":"benthos.input","message":"Failed to read message: shard 'shardId-000000000000' has closed"}
+{"@timestamp":"2020-03-29T00:01:53-07:00","@service":"benthos","level":"ERROR","component":"benthos.input","message":"Failed to read message: shard 'shardId-000000000000' has closed"}
+{"@timestamp":"2020-03-29T00:01:54-07:00","@service":"benthos","level":"ERROR","component":"benthos.input","message":"Failed to read message: shard 'shardId-000000000000' has closed"}
+ERRO[0120] Error getting Kinesis shards: Stream not active 
+{"@timestamp":"2020-03-29T00:01:55-07:00","@service":"benthos","level":"ERROR","component":"benthos.input","message":"Failed to read message: shard 'shardId-000000000000' has closed"}
+{"@timestamp":"2020-03-29T00:01:56-07:00","@service":"benthos","level":"ERROR","component":"benthos.input","message":"Failed to read message: shard 'shardId-000000000000' has closed"}
+ERRO[0121] Error getting Kinesis shards: Stream not active 
+{"@timestamp":"2020-03-29T00:01:57-07:00","@service":"benthos","level":"ERROR","component":"benthos.input","message":"Failed to read message: shard 'shardId-000000000000' has closed"}
+ERRO[0123] Error getting Kinesis shards: Stream not active 
+{"@timestamp":"2020-03-29T00:01:58-07:00","@service":"benthos","level":"ERROR","component":"benthos.input","message":"Failed to read message: shard 'shardId-000000000000' has closed"}
+{"@timestamp":"2020-03-29T00:01:59-07:00","@service":"benthos","level":"ERROR","component":"benthos.input","message":"Failed to read message: shard 'shardId-000000000000' has closed"}
+ERRO[0125] Error getting Kinesis shards: Stream not active 
+{"@timestamp":"2020-03-29T00:02:00-07:00","@service":"benthos","level":"ERROR","component":"benthos.input","message":"Failed to read message: shard 'shardId-000000000000' has closed"}
+{"@timestamp":"2020-03-29T00:02:01-07:00","@service":"benthos","level":"ERROR","component":"benthos.input","message":"Failed to read message: shard 'shardId-000000000000' has closed"}
+ERRO[0126] Error getting Kinesis shards: Stream not active 
+{"@timestamp":"2020-03-29T00:02:02-07:00","@service":"benthos","level":"ERROR","component":"benthos.input","message":"Failed to read message: shard 'shardId-000000000000' has closed"}
+ERRO[0128] Error getting Kinesis shards: Stream not active 
+{"@timestamp":"2020-03-29T00:02:03-07:00","@service":"benthos","level":"ERROR","component":"benthos.input","message":"Failed to read message: shard 'shardId-000000000000' has closed"}
+{"@timestamp":"2020-03-29T00:02:04-07:00","@service":"benthos","level":"ERROR","component":"benthos.input","message":"Failed to read message: shard 'shardId-000000000000' has closed"}
+{"@timestamp":"2020-03-29T00:02:05-07:00","@service":"benthos","level":"ERROR","component":"benthos.input","message":"Failed to read message: shard 'shardId-000000000001' has closed"}
+panic: send on closed channel
+
+goroutine 1297 [running]:
+github.com/Jeffail/benthos/v3/lib/input/reader.(*KinesisBalanced).ProcessRecords(0xc0001ad880, 0xc000182a80, 0xe, 0x10, 0xc00039cc00)
+	/Users/adempsey/code/benthos/lib/input/reader/kinesis_balanced.go:224 +0x53
+github.com/patrobinson/gokini.(*KinesisConsumer).getRecords(0xc00039cc00, 0xc00175e760, 0x14)
+	/Users/adempsey/code/go/pkg/mod/github.com/patrobinson/gokini@v0.0.7/consumer.go:397 +0x6f2
+created by github.com/patrobinson/gokini.(*KinesisConsumer).eventLoop
+	/Users/adempsey/code/go/pkg/mod/github.com/patrobinson/gokini@v0.0.7/consumer.go:226 +0x364

@@ -1,0 +1,18 @@
+input:
+  file:
+    path: "test_keys_input.txt"
+    multipart: false
+
+pipeline:
+  processors:
+    - sleep:
+        duration: 1s
+
+output:
+  kinesis:
+    stream: test-benthos-kinesis-balanced
+    partition_key: ${!content}
+    max_in_flight: 1
+    batching:
+      count: 10
+    region: us-east-1
